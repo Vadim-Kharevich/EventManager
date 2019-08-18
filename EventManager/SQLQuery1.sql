@@ -1,1 +1,0 @@
-﻿SELECT * FROM Events WHERE Id=(SELECT EventId FROM Additionals WHERE UserId='a157d5c1-4721-43f1-8967-c52303503f72');

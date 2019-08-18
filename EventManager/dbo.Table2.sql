@@ -1,7 +1,0 @@
-﻿CREATE TABLE [dbo].[Events]
-(
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [Name] NVARCHAR(50) NOT NULL, 
-    [Information] NVARCHAR(5000) NULL, 
-    [DateTime] DATETIME NOT NULL
-)
